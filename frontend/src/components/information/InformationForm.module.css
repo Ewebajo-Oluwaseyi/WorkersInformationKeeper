@@ -1,0 +1,54 @@
+.form {
+  margin: 10px 15px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.submit {
+  display: block;
+  width: 20%;
+  background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  margin-right: 1rem;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.submit:hover{
+  background: #45a049;
+}
+.input {
+  display: block;
+  width: 80%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  margin-right: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.clear {
+  display: block;
+  width: 50%;
+  background: blue;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin-right: 1rem;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

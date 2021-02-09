@@ -1,0 +1,31 @@
+.header {
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+.h5{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+.links {
+    text-decoration: none;
+    list-style-type: none;
+    color: white; 
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 2px 20px;
+    margin: 0 0.5rem;
+}
+.links:hover{
+    color: black;
+}
